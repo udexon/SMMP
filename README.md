@@ -4,7 +4,7 @@ Stack Machine Metaprogramming (SMMP)
 
 Stack Machine Metaprogramming is a programming technique that can be traced back to Dijkstra's legendary shunting yard algorithm published in 1961 and is one of the most promising techniques encompassing a wide spectrum of computing including:
 
-- [Software quality](https://github.com/udexon/SMMP/blob/master/SMSM.md)
+- [Software Engineering and Quality](https://github.com/udexon/SMMP/blob/master/SMSM.md)
 - Unified Collaborative Programming Environment
 - Mathematics and programming education
 - New foundation for artificial intelligence
