@@ -18,4 +18,14 @@ Broadly speaking, any implementation of reverse Polish notation (RPN) in any pro
 
 The most elaborate implementations of ISYA would be the Forth programming language implemented in various other high level programming languages.
 
-We have implemented the inverse shunting yard algorithm in PHP and JavaScript in around 50 lines of code -- an important milestone.
+We have implemented the inverse shunting yard algorithm in PHP and JavaScript in around 50 lines of code -- an important milestone. We believe our implementation of ISYA deserve a new name -- Multitiered Stack Machine (nSM) -- for the follwoing reasons:
+
+1. The "host" programming languages for nSM, PHP and JavaScript, are themselves executed within a stack machine interpreter.
+
+2. nSM comprises all essential Forth features, such as stack, conditional branches and colon definition, all in around 50 lines of code.
+
+3. nSM can be easily ported to other high level programming languages -- be it stack machine based or otherwise.
+
+The next step of SMMP is a Stack Machine Super Macro.
+
+Next SMUML, mathematics etc ...
