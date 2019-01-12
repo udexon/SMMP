@@ -25,3 +25,11 @@ We have implemented the inverse shunting yard algorithm in PHP and JavaScript in
 2. nSM comprises all essential Forth features, such as stack, conditional branches and colon definition, all in around 50 lines of code.
 
 3. nSM can be easily ported to other high level programming languages -- be it stack machine based or otherwise
+
+Multitiered Stack Machine (nSM)
+
+https://www.linkedin.com/pulse/multitiered-stack-machine-nsm-using-5gl-fifth-graph-ng-ph-d-/
+
+http://5gl.epizy.com/nsm/fgl.html
+
+nSM simply means "a stack machine within a stack machine .... (repeat up to N times)" . It is so named because the initial implementations of nSM are coded in PHP and JavaScript, whose interpreters are themselves stack machines.
