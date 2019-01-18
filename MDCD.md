@@ -9,7 +9,8 @@ Eureka! SMMP can now be applied to markdown, human readable documents!
 ```
 : Example1
 Instead of ending a colon definition with a semicolon ; , markdown colon definition (MDCD) includes
-one paragraph by default, or end with double semicolon ;; for multiple paragraphs.
+one paragraph by default, or ends with double semicolon ;; at the beginning of a line for 
+MDCD spanning multiple paragraphs.
 ```
 
 MDCD therefore provides a handy facility to manipulate text which falls within a section, or subsection, or the smallest unit for markdown or equivalent text processing regimes.
@@ -27,6 +28,6 @@ Personally, I find MDCD tremendously useful for organizing my own thoughts when 
 
 With MDCD, by adding a label, one forces oneself to think of a label that makes sense. If there has been more than one label of the same, then one is forced to think of additional descriptions to make it unique.
 
-
+While this innovation may seem trivial by itself, it is related to Stack Machine Graph Database (SMGDB), which we will explain later.
 
 
