@@ -1,6 +1,6 @@
-## Stack Machine Graph Database
+## Stack Machine Graph Database (SMGDB)
 
-### A distributed stack machine reverse polish notation syntax for a graph database: Stack Machine Graph Database (SMGDB). 
+### A distributed stack machine reverse polish notation syntax for a graph database
 
 1.
 ```
