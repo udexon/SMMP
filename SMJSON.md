@@ -4,8 +4,6 @@
 
 2. `key:` indicates start of key. `::` marks the end of key.
 
-Double colon suffix `key::` can be used for single value or string as termination is newline.
-
 ```
 c:
 p:: /home/hongwu/devel/5gl/coldef/h_5json
@@ -13,6 +11,8 @@ l:: 2030
 d:: example history file
 ::
 ```
+
+Double colon suffix `key::` can be used for single value or string as termination is newline.
 
 ```
 d:: What is this?
@@ -38,4 +38,8 @@ d: a c f ::
 
 `d: a c f ::` space delimited list represent array of elements. 
 
-4. Undefined lines will all be parsed as comments.
+4. Single value keys:
+
+`c: b:1 c:3 ::`
+
+5. Undefined lines will all be parsed as comments.
