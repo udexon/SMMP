@@ -2,9 +2,15 @@
 
 1. The primary purpose of SMJSON is to provide a readable, editable and compatible format of JSON to the Reverse Polish Notation used in Stack Machine Graph Database (SMGDB) / 5GL (Fifth Generation Graph Language).
 
-Default filename is `J_root` or `.J_root` in each directory.
+In example (2), bash history is saved to h_* from time to time. 
 
-2. `key:` indicates start of key. `::` marks the end of key.
+`J_root` SMJSON will be the missing link for bash output text file to be interfaced to SMGDB and the rest of the World Wide Web.
+
+JSON has the fundamental structure for constructing a graph database (GDB). However, it needs a high level interface to high level functions to form a GDB, which is provided by SMJSON.
+
+2. Default filename is `J_root` or `.J_root` in each directory.
+
+`key:` indicates start of key. `::` marks the end of key.
 
 ```
 c:
@@ -46,8 +52,3 @@ d: a c f ::
 
 5. Undefined lines will all be parsed as comments.
 
-6. In example (2) above, bash history is saved to h_* from time to time. 
-
-`J_root` SMJSON will be the missing link for bash output text file to be interfaced to SMGDB and the rest of the World Wide Web.
-
-JSON has the fundamental structure for constructing a graph database (GDB). However, it needs a high level interface to high level functions to form a GDB, which is provided by SMJSON.
