@@ -46,6 +46,8 @@ d: a c f ::
 
 5. Undefined lines will all be parsed as comments.
 
-6. In example (2) above, bash history is saved to h_* from time to time. `J_root` SMJSON will be the missing link for bash output text file to be interfaced to SMGDB.
+6. In example (2) above, bash history is saved to h_* from time to time. 
+
+`J_root` SMJSON will be the missing link for bash output text file to be interfaced to SMGDB and the rest of the World Wide Web.
 
 JSON has the fundamental structure for constructing a graph database (GDB). However, it needs a high level interface to high level functions to form a GDB, which is provided by SMJSON.
