@@ -1,6 +1,6 @@
 ## SMJSON: JSON format for SMGDB
 
-1. The primary purpose of SMJSON is to provide a readable, editable and compatible format to the Reverse Polish Notation used in Stack Machine Graph Database (SMGDB) / 5GL (Fifth Generation Graph Language).
+1. The primary purpose of SMJSON is to provide a readable, editable and compatible format of JSON to the Reverse Polish Notation used in Stack Machine Graph Database (SMGDB) / 5GL (Fifth Generation Graph Language).
 
 Default filename is `J_root` or `.J_root` in each directory.
 
