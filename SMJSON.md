@@ -20,6 +20,8 @@ d:: example history file
 ::
 ```
 
+A JSON record in `J_root` provides additonal descriptions (human readable) and information to aid programs which process the file concerned, and how it can be related to other files or objects within the host machine or remote nodes on the Internet. A Unix file does not include these additional information by default.
+
 Double colon suffix `key::` can be used for single value or string as termination is newline.
 
 ```
