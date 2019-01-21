@@ -1,17 +1,10 @@
 ## SMJSON: JSON format for SMGDB
 
-`J_root` or `.J_root` in each directory.
+1. Default filename is `J_root` or `.J_root` in each directory.
 
-```
-d:: What is this?
-l:: history file, path, line number?
-a:: double quote for single line string?
-```
-```
-k:: value
-```
+2. `key:` indicates start of key. `::` marks the end of key.
 
-double colon can be used for single value as termination is newline
+Double colon suffix `key::` can be used for single value or string as termination is newline.
 
 ```
 c:
@@ -21,4 +14,28 @@ d:: example history file
 ::
 ```
 
-undefined lines -- all parsed as comments
+```
+d:: What is this?
+l:: history file, path, line number?
+a:: double quote for single line string?
+k:: value
+```
+
+3. Nested json:
+
+Single line (in SMGDB command line):
+```
+c: b: a b :: d: a c f :: ::
+```
+
+Multiline format (in file):
+```
+c: 
+b: a b :: 
+d: a c f :: 
+::
+```
+
+`d: a c f ::` space delimited list represent array of elements. 
+
+4. Undefined lines will all be parsed as comments.
