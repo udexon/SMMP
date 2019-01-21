@@ -6,7 +6,7 @@
 
 ```
 c:
-p:: /home/hongwu/devel/5gl/coldef/J_root
+p:: /home/hongwu/devel/5gl/coldef/h_5json
 l:: 2030
 d:: example history file
 ::
