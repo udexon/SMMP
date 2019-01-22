@@ -70,3 +70,11 @@ d: a c f ::
 5. Undefined lines will all be parsed as comments.
 
 6. The Reverse Polish Notation statements used in Stack Machine Graph Database (SMGDB) / 5GL (Fifth Generation Graph Language) maybe included in SMJSON as they can be parsed as string.
+
+Here we encounter the interesting propterties of homoiconicity again. 
+
+As RPN itself is homoiconic, SMJSON becomes a data file format that can include executable code (RPN), which can operate on itself.
+
+An RPN statement can consume itself as data input. But SMJSON is a comprehensive data file which can represent a comprehensive range of data structures, including RPN statements which can consume the host SMJSON as input.
+
+This leads to a "self evaluating" file format: Stack Machine Unified Modeling Language (SMUML).
