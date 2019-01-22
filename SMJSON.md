@@ -9,7 +9,7 @@ However, GBD that include Unix files as nodes have not been widely available, re
 SMGDB / SMJSON is designed to fill this gap.
 
 
-1. The primary purpose of SMJSON is to provide a readable, editable and compatible format of JSON to the Reverse Polish Notation used in Stack Machine Graph Database (SMGDB) / 5GL (Fifth Generation Graph Language).
+1. The primary purpose of SMJSON is to provide a readable, editable and "self evaluating" format of JSON to the Reverse Polish Notation used in Stack Machine Graph Database (SMGDB) / 5GL (Fifth Generation Graph Language).
 
 In example (2), bash history is saved to h_* from time to time. 
 
