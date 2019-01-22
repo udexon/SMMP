@@ -85,3 +85,7 @@ This leads to a "self evaluating" file format: Stack Machine Unified Modeling La
 In example (2), the key `E` is a 5GL statement that produces a json object:
 
 `{"c":{"c":["a","b"]}}`
+
+7. Future: Stack Machine Artificial Intelligence (SMAI)?
+
+SMAI will be able to process natural languages and multimedia contents?
