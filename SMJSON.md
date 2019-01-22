@@ -36,7 +36,7 @@ E:: php smgdb.php array: a ap: b ap: array: swap: c apk: array: swap: c apk: je:
 #end
 ```
 
-`#!smjson` may appear anywhere in the text file, indicating the beginning of SMJSON parsing. `#end` marks the end. As such, SMJSON can be included in any textfile. These tags maybe excluded from a dedicated SMJOSN file.
+`#!smjson` may appear anywhere in the text file, indicating the beginning of SMJSON parsing. `#end` marks the end. As such, SMJSON can be included in any textfile. These tags maybe excluded from a dedicated SMJSON file.
 
 Double colon suffix `key::` can be used for single value or string as termination is newline.
 
