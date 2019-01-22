@@ -19,6 +19,8 @@ JSON has the fundamental structure for constructing a graph database (GDB). Howe
 
 2. Default filename is `J_root` or `.J_root` in each directory.
 
+SMGDB uses the filename convention of `T_*` where `T` is a single alphanumeric character representing the category or type of file. A capital letter denotes a system file.
+
 `key:` indicates start of key. `::` marks the end of key.
 
 ```
