@@ -29,6 +29,7 @@ c:
 p:: /home/hongwu/devel/5gl/coldef/h_5json
 l:: 2030
 d:: example history file
+E:: php smgdb.php array: a ap: b ap: array: swap: c apk: array: swap: c apk: je: s:
 ::
 #end
 ```
@@ -78,3 +79,7 @@ As RPN itself is homoiconic, SMJSON becomes a data file format that can include 
 An RPN statement can consume itself as data input. But SMJSON is a comprehensive data file which can represent a comprehensive range of data structures, including RPN statements which can consume the host SMJSON as input.
 
 This leads to a "self evaluating" file format: Stack Machine Unified Modeling Language (SMUML).
+
+In example (2), the key `E` is a 5GL statement that produces a json object:
+
+`{"c":{"c":["a","b"]}}'`
