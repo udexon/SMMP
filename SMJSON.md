@@ -82,4 +82,4 @@ This leads to a "self evaluating" file format: Stack Machine Unified Modeling La
 
 In example (2), the key `E` is a 5GL statement that produces a json object:
 
-`{"c":{"c":["a","b"]}}'`
+`{"c":{"c":["a","b"]}}`
