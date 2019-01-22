@@ -33,3 +33,15 @@ https://www.linkedin.com/pulse/multitiered-stack-machine-nsm-using-5gl-fifth-gra
 http://5gl.epizy.com/nsm/fgl.html
 
 nSM simply means "a stack machine within a stack machine .... (repeat up to N times)" . It is so named because the initial implementations of nSM are coded in PHP and JavaScript, whose interpreters are themselves stack machines.
+
+You can view the complete JavaScript Multitiered Stack Machine code at the link given above. This is actually the complete core engine. The rest are add ons:
+
+I have not disclosed the complete source code for two reasons:
+
+(1) needs cleaning up
+
+(2) pending investor evaluation
+
+Despite the above, you are welcome to direct message me for sneak peek and negotiate for license or collaboration.
+
+Do please have a look at the JavaScript ISYA core engine if you want to find out more. Other modules of SMMP are built upon the ISYA core engine.
