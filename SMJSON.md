@@ -69,3 +69,4 @@ d: a c f ::
 
 5. Undefined lines will all be parsed as comments.
 
+6. The Reverse Polish Notation statements used in Stack Machine Graph Database (SMGDB) / 5GL (Fifth Generation Graph Language) maybe included in SMJSON as they can be parsed as string.
