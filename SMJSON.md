@@ -6,7 +6,7 @@ A graph database (GDB) is a graph whose nodes may include any object defined by 
 
 A graph database can in theory include everything from a text file in a Unix like filesystem to an image in an HTML file.
 
-However, GBD that include Unix files as nodes have not been widely available, representing the "last mile" for an Internet wide graph database.
+However, GDB that include Unix files as nodes have not been widely available, representing the "last mile" for an Internet wide graph database.
 
 SMGDB / SMJSON is designed to fill this gap.
 
@@ -36,7 +36,7 @@ E:: php smgdb.php array: a ap: b ap: array: swap: c apk: array: swap: c apk: je:
 #end
 ```
 
-`!#smjson` may appear anywhere in the text file, indicating the beginning of SMJSON parsing. `#end` marks the end. As such, SMJSON can be included in any textfile. These tags maybe excluded from a dedicated SMJOSN file.
+`#!smjson` may appear anywhere in the text file, indicating the beginning of SMJSON parsing. `#end` marks the end. As such, SMJSON can be included in any textfile. These tags maybe excluded from a dedicated SMJOSN file.
 
 Double colon suffix `key::` can be used for single value or string as termination is newline.
 
