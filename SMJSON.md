@@ -13,11 +13,11 @@ SMGDB / SMJSON is designed to fill this gap.
 
 In example (2), bash history is saved to h_* from time to time. 
 
-`J_root` SMJSON will be the missing link for bash output text file to be interfaced to SMGDB and the rest of the World Wide Web.
+`J_smjson` SMJSON will be the missing link for bash output text file to be interfaced to SMGDB and the rest of the World Wide Web.
 
 JSON has the fundamental structure for constructing a graph database (GDB). However, it needs a high level interface to high level functions to form a GDB, which is provided by SMJSON.
 
-2. Default filename is `J_root` or `.J_root` in each directory.
+2. Default filename is `J_smjson` or `.J_smjson` in each directory.
 
 SMGDB uses the filename convention of `T_*` where `T` is a single alphanumeric character representing the category or type of file. A capital letter denotes a system file.
 
@@ -33,7 +33,7 @@ d:: example history file
 
 Double colon suffix `key::` can be used for single value or string as termination is newline.
 
-A JSON record in `J_root` provides additonal descriptions (human readable) and information to aid programs which process the file concerned, and how it can be related to other files or objects within the host machine or remote nodes on the Internet. A Unix file does not include these additional information by default.
+A JSON record in `J_smjson` provides additonal descriptions (human readable) and information to aid programs which process the file concerned, and how it can be related to other files or objects within the host machine or remote nodes on the Internet. A Unix file does not include these additional information by default.
 
 ```
 d:: What is this?
