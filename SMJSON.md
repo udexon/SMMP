@@ -1,4 +1,6 @@
-## SMJSON: JSON format for SMGDB
+## SMJSON: JSON Format for SMGDB
+
+### A Homoiconic and Self-Evaluating JSON Format
 
 A graph database (GDB) is a graph whose nodes may include any object defined by the properties of the edges and nodes of the graph. 
 
