@@ -1,6 +1,6 @@
 ## SMJSON: JSON format for SMGDB
 
-A graph database is a graph whose nodes may include any object defined by the properties of the edges and nodes of the graph. 
+A graph database (GDB) is a graph whose nodes may include any object defined by the properties of the edges and nodes of the graph. 
 
 A graph database can in theory include everything from a text file in a Unix like filesystem to an image in an HTML file.
 
