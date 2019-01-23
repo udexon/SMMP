@@ -24,17 +24,17 @@ Only do `mkightml` when need to refresh html statistics table.
 
 ```
 ig:
-p:: /home/hongwu/devel/5gl/coldef/
-o:: o_ig_rank.html
+p:: /home/hongwu/devel/5gl/igdl_2019/
 t:: Title: Instagram Photo Ranking
 E:: php smgdb.php <Instagram hashtag> dltag dlsc
 ::
 
 ig:
-p:: /home/hongwu/devel/5gl/coldef/
-o:: o_ig_rank.html
+p:: /home/hongwu/devel/5gl/igdl_2019/
 t:: Title: Instagram Photo Ranking
 E:: php smgdb.php igstats
+E_i:: command line
 H:: smgdb.php?S=igstats
+H_i:: http GET
 ::
 ```
