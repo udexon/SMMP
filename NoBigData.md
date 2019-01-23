@@ -21,3 +21,20 @@ Our proposed SMGDB / SMJSON is a ....
 Only do `mkightml` when need to refresh html statistics table.
 
 5GL/PHP is the way to make PHP functions available at command line and HHTP/POST/GET!!
+
+```
+ig:
+p:: /home/hongwu/devel/5gl/coldef/
+o:: o_ig_rank.html
+t:: Title: Instagram Photo Ranking
+E:: php smgdb.php <Instagram hashtag> dltag dlsc
+::
+
+ig:
+p:: /home/hongwu/devel/5gl/coldef/
+o:: o_ig_rank.html
+t:: Title: Instagram Photo Ranking
+E:: php smgdb.php igstats
+H:: smgdb.php?S=igstats
+::
+```
