@@ -9,3 +9,7 @@ Big Data is the latest arena of class struggles. Yet there is virtually no meani
 The main reasons are the lack of a practical use case and practical solutions.
 
 Our proposed SMGDB / SMJSON is a ....
+
+1. [Stack Machine JSON](https://github.com/udexon/SMMP/blob/master/SMJSON.md)
+
+2. Save Instagram script in J_smjson. Write 5GL script to retrieve Instgram script. Better script management. Include make html. Make SMGDB with more than one nodes.
