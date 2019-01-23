@@ -15,3 +15,7 @@ Our proposed SMGDB / SMJSON is a ....
 2. Save Instagram script in J_smjson. Write 5GL script to retrieve Instgram script. Better script management. Include make html. Make SMGDB with more than one nodes.
 
 `keyword.html` in `ig` directory has the keyword and date time of execution.
+
+`dltag` and `dlsc` (sc=shortcode) can be done repeatedly all the time.
+
+Only do `mkightml` when need to refresh html statistics table.
