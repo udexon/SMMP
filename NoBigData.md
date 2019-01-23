@@ -19,3 +19,5 @@ Our proposed SMGDB / SMJSON is a ....
 `dltag` and `dlsc` (sc=shortcode) can be done repeatedly all the time.
 
 Only do `mkightml` when need to refresh html statistics table.
+
+5GL/PHP is the way to make PHP functions available at command line and HHTP/POST/GET!!
