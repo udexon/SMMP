@@ -6,3 +6,6 @@ Big Data is the latest arena of class struggles. Yet there is virtually no meani
 
 大数据是阶级斗争的最新战线。 然而， 至今为止， 鲜少有人提及。
 
+The main reasons are the lack of a practical use case and practical solutions.
+
+Our proposed SMGDB / SMJSON is a ....
