@@ -38,7 +38,7 @@ Together with Markdown, the Graph:Note `LiteratureReview::` tag makes the note r
 Since Graph:Note text can be processed by SMGDB, it can be shared hundreds (scaleable) collaborators globally, achieving the goals set out by hypertext system designers decades ago.
 
 
-### A more ambitious application: CV Database of Programmers
+### A more ambitious application: Graph Database of Programmers (PGDB)
 
 Programmers are perhaps the most active contributors in online forums. Afterall, they are the creators of online forums!!
 
@@ -47,3 +47,14 @@ Besides conventional job directory / CV submission, is there a better way to dis
 By applying Graph:Note to GitHub repositories, we can build a graph database of programmers (PGDB).
 
 PGDB can be used to evaluate talents and their availability for short term projects -- the most useful information for free software / open source or commercial project management.
+
+With Graph:Note, we can add the following information to GitHub repositories:
+
+```
+FieldOfSpecialization:: Field of Specialization
+ExpertiseLevel:: Expertise Level
+Gurus:: Candidates who can be Guru for target programmer
+Apprentices:: Candidates who can be apprentice of target programmer
+```
+
+Of course, we can add more keys (fields) to the Graph:Note record (essentially a JSON object).
