@@ -102,3 +102,5 @@ Graph:Note and SMGDB (Stack Machine Graph Database) will be the mechanism to ena
 ### Example: Instagram Like Ranking
 
 In [Instagram Like Ranking](https://github.com/udexon/SMMP/blob/master/NoBigData.md#instagram-like-ranking), the Colon Definition Words (CDW) are stored as JSON text file and loaded as associative array by 5GL/PHP, so they can be easily shared via HTTP as JSON string.
+
+We believe SMGDB Graph:Note overcomes a major drawback in conventional code sharing system (e.g. GitHub), i.e. code in SMGDB can be executed live, manipulated and tested like a full fledged shell. This property is inherited and derived from Forth conventions.
