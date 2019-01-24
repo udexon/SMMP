@@ -69,6 +69,7 @@ fgl_s 396 < 3 > array ( 0 => array ( 0 => 'smgdb.php', 1 => 'cdw:', 2 => ':igsta
 A B C 3sort: A rshv: ON ECHO bv: ncolsb psb: table: body: html: ec: ;', )
 ```
 
+![alt text][InstaRank]
 [InstaRank]： https://github.com/udexon/SMMP/blob/master/Instagram_Rank_2019.png
 
-![alt text][InstaRank]
+
