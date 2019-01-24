@@ -95,3 +95,5 @@ Further, if all programmming languages can be transformed to RPN, then the code 
 Let's reiterate the last paragraph to let perhaps the most significant breakthrough in the history of computing sink in the reader's head:
 
 - *If all programmming languages can be transformed to RPN, then the code written in any programming language can be shared as RPN scripts, making it possible for the first time in human history, for any programmer to share and reuse ALL code ever published and stored on the Internet.*
+
+Graph:Note and SMGDB (Stack Machine Graph Database) will be the mechanism to enable this.
