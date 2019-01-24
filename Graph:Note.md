@@ -51,10 +51,13 @@ PGDB can be used to evaluate talents and their availability for short term proje
 With Graph:Note, we can add the following information to GitHub repositories:
 
 ```
-FieldOfSpecialization:: Field of Specialization
+FieldsOfSpecialization:: Fields of Specialization
 ExpertiseLevel:: Expertise Level
 Gurus:: Candidates who can be Guru for target programmer
 Apprentices:: Candidates who can be apprentice of target programmer
+Availability:: Hours per week, start date, end date
 ```
 
 Of course, we can add more keys (fields) to the Graph:Note record (essentially a JSON object).
+
+At present, the core engine that drives Graph:Note -- Stack Machine Graph Database (SMGDB) -- is a PHP program capable of handling Reverse Polish Notation (5GL: Fifth Generation Graph Language). Since the architecture of Graph:Note is open source, it can be extended to other graph database platforms. The main advantage of using 5GL/PHP is its small footprint -- currently only at 10MB of source code (uncompressed). As such, SMGDB nodes can easily be deployed to any mobile device using Linux virtual machine, such as UserLand and Termux.
