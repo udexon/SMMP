@@ -20,3 +20,14 @@ But only Graph:Note smjson is both readble/editable to human and computer??
 ```
 
 Simple place a `Notes::` tag before one line or a paragraph.
+
+From [SMJSON (Stack Machine JSON)](https://github.com/udexon/SMMP/blob/master/SMJSON.md), `key::` is an SMJSON feature to specify a key. In JSON, it is not so readable. It is however made more readable in SMJSON.
+
+So I may write:
+
+```
+LiteratureReview::
+How relate to relate Graph:Note to Xanadu, TeX and other hypertext processing systems attempted. Where should I place them in the article to make the point more effective?
+```
+
+Together with Markdown, the Graph:Note `LiteratureReview::` tag makes the note readable to collaborators and readers, and it can be extracted using SMGDB code for further processing, e.g. to produce a complete "ToDo" list.
