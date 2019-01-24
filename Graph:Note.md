@@ -51,7 +51,7 @@ PGDB can be used to evaluate talents and their availability for short term proje
 With Graph:Note, we can create a local text file in a Unix system and add the following information to GitHub repositories:
 
 ```
-GitHubURL: GitHub URL
+GitHubURL:: GitHub URL
 FieldsOfSpecialization:: Fields of Specialization
 ExpertiseLevel:: Expertise Level
 Gurus:: Candidates who can be Guru for target programmer
