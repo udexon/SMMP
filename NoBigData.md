@@ -26,7 +26,7 @@ Only do `mkightml` when need to refresh html statistics table.
 ig:
 p:: /home/hongwu/devel/5gl/igdl_2019/
 t:: Title: Instagram Photo Ranking
-E:: php smgdb.php <Instagram hashtag> dltag dlsc
+E:: php smgdb.php <Instagram_hashtag> dltag dlsc
 ::
 
 ig:
