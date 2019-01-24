@@ -41,11 +41,6 @@ H_i:: http GET
 
 Need to explain `$CDW` and colon definition.
 
-```
-$ php smgdb.php cdw: :igstats 1 substr: i: im: s:
-
-fgl_s 396 < 3 > array ( 0 => array ( 0 => 'smgdb.php', 1 => 'cdw:', 2 => ':igstats', 3 => '1', 4 => 'substr:', 5 => 'i:', 6 => 'im:', 7 => 's:', ), 1 => 'smgdb.php', 2 => 'array: A shv: array: B shv: array: C shv: ig/B*.html glob: alike_user_shortcode nl: A B C 3sort: A rshv: ON ECHO bv: ncolsb psb: table: body: html: ec: ;', )
-```
 
 ```
 "ncolsb":["cx:","dup:","A","l:","<tr>","esb:","dup:","2over:","swap:","-","dup:_",".","esb:_",".",
@@ -62,4 +57,14 @@ fgl_s 396 < 3 > array ( 0 => array ( 0 => 'smgdb.php', 1 => 'cdw:', 2 => ':igsta
 "psb:","table:","body:","html:","ec:",";"]
 
 }
+```
+
+
+```
+$ php smgdb.php cdw: :igstats 1 substr: i: im: s:
+
+fgl_s 396 < 3 > array ( 0 => array ( 0 => 'smgdb.php', 1 => 'cdw:', 2 => ':igstats', 3 => '1', 
+4 => 'substr:', 5 => 'i:', 6 => 'im:', 7 => 's:', ), 1 => 'smgdb.php', 
+2 => 'array: A shv: array: B shv: array: C shv: ig/B*.html glob: alike_user_shortcode nl: 
+A B C 3sort: A rshv: ON ECHO bv: ncolsb psb: table: body: html: ec: ;', )
 ```
