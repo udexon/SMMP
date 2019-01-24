@@ -97,3 +97,8 @@ Let's reiterate the last paragraph to let perhaps the most significant breakthro
 - *If all programmming languages can be transformed to RPN, then the code written in any programming language can be shared as RPN scripts, making it possible for the first time in human history, for any programmer __*to share and reuse ALL code ever published and stored on the Internet*__.*
 
 Graph:Note and SMGDB (Stack Machine Graph Database) will be the mechanism to enable this.
+
+
+### Example: Instagram Like Ranking
+
+In [Instagram Like Ranking](https://github.com/udexon/SMMP/blob/master/NoBigData.md#instagram-like-ranking), the Colon Definition Words (CDW) are stored as JSON text file and loaded as associative array by 5GL/PHP, so they can be easily shared via HTTP as JSON string.
