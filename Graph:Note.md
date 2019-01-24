@@ -104,3 +104,7 @@ Graph:Note and SMGDB (Stack Machine Graph Database) will be the mechanism to ena
 In [Instagram Like Ranking](https://github.com/udexon/SMMP/blob/master/NoBigData.md#instagram-like-ranking), the Colon Definition Words (CDW) are stored as JSON text file and loaded as associative array by 5GL/PHP, so they can be easily shared via HTTP as JSON string.
 
 We believe SMGDB Graph:Note overcomes a major drawback in conventional code sharing system (e.g. GitHub), i.e. code in SMGDB can be executed live, manipulated and tested like a full fledged shell. This property is inherited and derived from Forth conventions.
+
+Secondly, we believe by providing a unified RPN script for all programming languages, the costs for training new programmers as well as working on multiligual (programming) projects will be greatly reduced, or it makes it much easier to find the skilled personnel for a required task.
+
+For example, Forth shells have been implemented in Haskell. Someone who is familiar with Forth would be able to pick up Haskell more easily, perhaps even able to run RPN code written elsewhere in Haskell with minor modifications.
