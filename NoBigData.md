@@ -20,10 +20,6 @@ Our proposed SMGDB / SMJSON is a ....
 
 5GL/PHP is the way to make PHP functions available at command line and HHTP/POST/GET!!
 
-In the following example, `ig_1` downloads the page for a given Instagram hashtag and the photos and "edge" (graph) information (e.g. like counts), with 5GL/PHP commands `dltag` and `dlsc`.
-
-`ig_2` sorts the photos by like count and display it in Linux terminal or a web page, as shown in figure below.
-
 ```
 ig_1:
 p:: /home/hongwu/devel/5gl/igdl_2019/
@@ -41,6 +37,17 @@ HTTP_String:: smgdb.php?S=igstats
 H_Environment:: http GET
 ::
 ```
+
+In the Graph:Note / SMJSON example shown above, `ig_1` downloads the page for a given Instagram hashtag and the photos and "edge" (graph) information (e.g. like counts), with 5GL/PHP commands `dltag` and `dlsc`.
+
+`ig_2` sorts the photos by like count and display it in Linux terminal or a web page, as shown in figure below.
+
+
+![alt text][InstaRank]
+
+[InstaRank]: https://github.com/udexon/SMMP/blob/master/Instagram_Rank_2019.png "Instagram Ranking Example"
+
+
 
 Need to explain `$CDW` and colon definition.
 
@@ -71,9 +78,5 @@ fgl_s 396 < 3 > array ( 0 => array ( 0 => 'smgdb.php', 1 => 'cdw:', 2 => ':igsta
 2 => 'array: A shv: array: B shv: array: C shv: ig/B*.html glob: alike_user_shortcode nl: 
 A B C 3sort: A rshv: ON ECHO bv: ncolsb psb: table: body: html: ec: ;', )
 ```
-
-![alt text][InstaRank]
-
-[InstaRank]: https://github.com/udexon/SMMP/blob/master/Instagram_Rank_2019.png "Instagram Ranking Example"
 
 
