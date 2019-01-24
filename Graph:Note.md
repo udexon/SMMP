@@ -108,3 +108,12 @@ We believe SMGDB Graph:Note overcomes a major drawback in conventional code shar
 Secondly, we believe by providing a unified RPN script for all programming languages, the costs for training new programmers as well as working on multiligual (programming) projects will be greatly reduced, or it makes it much easier to find the skilled personnel for a required task.
 
 For example, Forth shells have been implemented in Haskell. Someone who is familiar with Forth would be able to pick up Haskell more easily, perhaps even able to run RPN code written elsewhere in Haskell with minor modifications.
+
+
+### Pareto Principle: Most Beneficial Applications
+
+1. Graph Database of Programmers
+
+2. Graph Database of Instagram Users
+
+3. Improve programers' income -- reduce pay gaps between MAGAF and the rest of us
