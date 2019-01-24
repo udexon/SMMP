@@ -44,4 +44,6 @@ Programmers are perhaps the most active contributors in online forums. Afterall,
 
 Besides conventional job directory / CV submission, is there a better way to discover and consolidate expertise and talents?
 
-By applying Graph:Note to GitHub repositories, we can build a graph database of the programmers.
+By applying Graph:Note to GitHub repositories, we can build a graph database of programmers (PGDB).
+
+PGDB can be used to evaluate talents and their availability for short term projects -- the most useful information for free software / open source or commercial project management.
