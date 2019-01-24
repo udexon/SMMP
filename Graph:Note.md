@@ -48,7 +48,7 @@ By applying Graph:Note to GitHub repositories, we can build a graph database of 
 
 PGDB can be used to evaluate talents and their availability for short term projects -- the most useful information for free software / open source or commercial project management.
 
-With Graph:Note, we can create a local text file in a Unix system and add the following information to GitHub repositories:
+With Graph:Note, we can create a local text file in a Unix system and add the following information concerning GitHub repositories:
 
 ```
 GitHubURL:: GitHub URL
