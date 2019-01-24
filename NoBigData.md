@@ -76,7 +76,7 @@ A part of `O_cdw` is shown below:
 }
 ```
 
-To convert the JSON array back to string, we use the following commands:
+To convert the JSON array back to string, we use the following commands, and the final output is shown as the top of the stack (element with index 2):
 
 ```
 $ php smgdb.php cdw: :igstats 1 substr: i: im: s:
@@ -86,5 +86,7 @@ fgl_s 396 < 3 > array ( 0 => array ( 0 => 'smgdb.php', 1 => 'cdw:', 2 => ':igsta
 2 => 'array: A shv: array: B shv: array: C shv: ig/B*.html glob: alike_user_shortcode nl: 
 A B C 3sort: A rshv: ON ECHO bv: ncolsb psb: table: body: html: ec: ;', )
 ```
+
+In a typical 5GL/PHP command list (equivalent to Forth "word list"), a word with a colon suffix `:` denotes a PHP native function. Other words could be a "colon definition word" (CDW) i.e. defined using colon definition, which is composed of native PHP functions or other CDWs. The remain type of tokens would be literal or variables (used by functions as reference to arrays or variables).
 
 
