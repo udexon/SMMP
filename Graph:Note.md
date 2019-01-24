@@ -68,3 +68,14 @@ At present, the core engine that drives Graph:Note -- Stack Machine Graph Databa
 With Graph:Note, I am typing entries into my graph database as I write this GitHub markdown document. Text can be taken as comments or keys (fields) of Graph:Note records. This is the most intuitive interface to interact with a graph database.
 
 I may evaluate other programmers on GitHub using the PGDB template above. Other programmers may also evaluate me, by keeping Graph:Note files, which they may decide to share or not to share, and to whom they want to share it. The graph database is coming alive as and when someone writes a line of text -- using the quintessential way to terminate a record, with a newline character. (Disclaimer: not sure if DOS CR/LF is still a thing. /s)
+
+
+### Code: Sharing and Documentation
+
+Documentation! The nightmare of a programmer -- to document or not to document -- that is the question.
+
+The article ["What is not a stack machie?"](https://github.com/udexon/5CSM/blob/master/SMOCL/README.md) provides some theoretical and technical perspectives for code sharing and documentation based on stack machines.
+
+In recent years, functional programming has gained a larger following, with programming language like Haskell being deployed in financial sectors, including crytocurrency projects such as Cardano by IOHK.
+
+If we were to divide programming languages into the procedural and functional paradigms, stack machine programming, or stack machine metaprogramming (SMMP), stands on its own, in my very humble opinion, as it is the only candidate that can unify both paradigms.
