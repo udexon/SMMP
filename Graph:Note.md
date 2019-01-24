@@ -8,6 +8,8 @@ Graph:Note or SMJSON are extensions of the ubiquitous JSON format designed to ma
 
 The [SMJSON (Stack Machine JSON)](https://github.com/udexon/SMMP/blob/master/SMJSON.md) article explains the fundamental mechanisms of SMJSON. In this article, we illustrate how to produce documentation using Graph:Note, with graph database functionalities offered by SMGDB (Stack Machine Graph Database).
 
+### A Trivial Example
+
 For example, as I write this article, I am thinking how relate to relate Graph:Note to Xanadu, TeX and other hypertext processing systems attempted. Where should I place them in the article to make the point more effective?
 
 How can I "think out loud"? i.e. How can I share notes with other collaborators -- while not confusing other readers?
@@ -34,3 +36,10 @@ Where should I place them in the article to make the point more effective?
 Together with Markdown, the Graph:Note `LiteratureReview::` tag makes the note readable to collaborators and readers, and it can be extracted using SMGDB code for further processing, e.g. to produce a complete "ToDo" list.
 
 Since Graph:Note text can be processed by SMGDB, it can be shared hundreds (scaleable) collaborators globally, achieving the goals set out by hypertext system designers decades ago.
+
+
+### A more ambitious application: CV Database of Programmers
+
+Programmers are perhaps the most active contributors in online forums. Afterall, they are the creators of online forums!!
+
+Besides conventional job directory / CV submission, is there a better way to discover and consolidate expertise and talents?
