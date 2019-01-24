@@ -86,4 +86,6 @@ In Forth or similar stack machine programming languages, functions (Forth "words
 
 Since the advent of the Unix operating systems and related compiler tools, programming languages have flourished, perhaps now reaching a point of negative returns -- a new programming language needs to compete with all the existing programming languages, while the programmer population growth has stagnated as the Internet and mobile computing have perhaps reached all reachable territories.
 
-Against the background of myraid programming languages, we formalized the Inverse Shunting Yard Algorithm (ISYA) -- the inverse of Dijkstra's now legendary Shunting Yard Algorithm (DSYA): We demonstrated that how it is possible create a generalized stack machine in PHP and JavaScript in less than 50 lines of code, and by extension, in any similar host programming language.
+Against the background of myraid of programming languages, we formalized the Inverse Shunting Yard Algorithm (ISYA) -- the inverse of Dijkstra's now legendary Shunting Yard Algorithm (DSYA): We demonstrated that it is possible create a generalized stack machine in PHP and JavaScript in less than 50 lines of code, and by extension, in any similar host programming language.
+
+This has a far reaching consequence: It implies that any known programming language can execute Reverse Polish Notation, making it THE unique candidate to unify ALL known programming languages.
