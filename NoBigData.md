@@ -57,9 +57,7 @@ The stack machine engine simply pushes tokens `t1 t3a t3b` onto the stack and ex
 
 The colon definitions are stored in `O_cdw`, a JSON text file, and loaded when `smgdb.php` is initialized.
 
-
-Need to explain `$CDW` and colon definition.
-
+A part of `O_cdw` is shown below:
 
 ```
 "ncolsb":["cx:","dup:","A","l:","<tr>","esb:","dup:","2over:","swap:","-","dup:_",".","esb:_",".",
@@ -78,6 +76,7 @@ Need to explain `$CDW` and colon definition.
 }
 ```
 
+To convert the JSON array back to string, we use the following commands:
 
 ```
 $ php smgdb.php cdw: :igstats 1 substr: i: im: s:
