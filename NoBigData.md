@@ -70,7 +70,7 @@ A B C 3sort: A rshv: ON ECHO bv: ncolsb psb: table: body: html: ec: ;', )
 ```
 
 ![alt text][InstaRank]
-[InstaRank]: https://github.com/udexon/SMMP/blob/master/Instagram_Rank_2019.png
+[InstaRank]: https://github.com/udexon/SMMP/blob/master/Instagram_Rank_2019.png "Instagram Ranking Example"
 
 
 Here's our logo (hover to see the title text):
