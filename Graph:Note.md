@@ -114,6 +114,11 @@ For example, Forth shells have been implemented in Haskell. Someone who is famil
 
 1. Graph Database of Programmers
 
+- Better project management for all
+
+- Improve programers' income -- reduce pay gaps between MAGAF and the rest of us
+
 2. Graph Database of Instagram Users
 
-3. Improve programers' income -- reduce pay gaps between MAGAF and the rest of us
+3. Other types of Graph Database, Gurunet for Training, Internet of Peoples (IoP)
+
