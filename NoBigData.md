@@ -47,6 +47,15 @@ In the Graph:Note / SMJSON example shown above, `ig_1` downloads the page for a 
 
 [InstaRank]: https://github.com/udexon/SMMP/blob/master/Instagram_Rank_2019.png "Instagram Ranking Example"
 
+The 5GL/PHP commands are defined using Forth style "colon definition", where
+
+```
+: func_name t1 f1 f2 t3a t3b f3 ... ;
+```
+
+The stack machine engine simply pushes tokens `t1 t3a t3b` onto the stack and executes `f1 f2 f3` in sequence.
+
+The colon definitions are stored in `O_cdw`, a JSON text file, and loaded when `smgdb.php` is initialized.
 
 
 Need to explain `$CDW` and colon definition.
