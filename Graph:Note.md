@@ -79,3 +79,5 @@ The article ["What is not a stack machie?"](https://github.com/udexon/5CSM/blob/
 In recent years, functional programming has gained a larger following, with programming language like Haskell being deployed in financial sectors, including crytocurrency projects such as Cardano by IOHK.
 
 If we were to divide programming languages into the procedural and functional paradigms, stack machine programming, or stack machine metaprogramming (SMMP), stands on its own, in my very humble opinion, as it is the only candidate that can unify both paradigms.
+
+The stack machine programming community is rather unique compared to other programming languages. The most active of stack machine programming languages to date, Forth, was launched in 1968, with roots to LISP while its inventor Charles H. Moore attended McCarthy's class in MIT. The comp.lang.forth newsgroup (!) is perhaps the last still active newsgroups, with contributors who have been around for literally decades. Despite this, the number of academic publications on Forth and related programming languages are curiously few compared to other categories. 
