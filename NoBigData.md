@@ -70,6 +70,15 @@ A B C 3sort: A rshv: ON ECHO bv: ncolsb psb: table: body: html: ec: ;', )
 ```
 
 ![alt text][InstaRank]
-[InstaRank]： https://github.com/udexon/SMMP/blob/master/Instagram_Rank_2019.png
+[InstaRank]: https://github.com/udexon/SMMP/blob/master/Instagram_Rank_2019.png
 
 
+Here's our logo (hover to see the title text):
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
