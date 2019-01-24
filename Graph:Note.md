@@ -89,3 +89,7 @@ Since the advent of the Unix operating systems and related compiler tools, progr
 Against the background of myraid of programming languages, we formalized the Inverse Shunting Yard Algorithm (ISYA) -- the inverse of Dijkstra's now legendary Shunting Yard Algorithm (DSYA): We demonstrated that it is possible create a generalized stack machine in PHP and JavaScript in less than 50 lines of code, and by extension, in any similar host programming language.
 
 This has a far reaching consequence: It implies that any known programming language can execute Reverse Polish Notation, making it THE unique candidate to unify ALL known programming languages.
+
+Further, if all programmming languages can be transformed to RPN, then the code written in any programming language can be shared as RPN scripts, making it possible for the first time in human history, to any programmer to share and reuse ALL code ever published and stored on the Internet.
+
+Let
