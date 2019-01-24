@@ -43,3 +43,5 @@ Since Graph:Note text can be processed by SMGDB, it can be shared hundreds (scal
 Programmers are perhaps the most active contributors in online forums. Afterall, they are the creators of online forums!!
 
 Besides conventional job directory / CV submission, is there a better way to discover and consolidate expertise and talents?
+
+By applying Graph:Note to GitHub repositories, we can build a graph database of the programmers.
