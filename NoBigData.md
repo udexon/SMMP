@@ -38,3 +38,5 @@ H:: smgdb.php?S=igstats
 H_i:: http GET
 ::
 ```
+
+Need to explain `$CDW` and colon definition.
