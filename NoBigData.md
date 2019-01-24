@@ -18,19 +18,21 @@ Our proposed SMGDB / SMJSON is a ....
 
 `dltag` and `dlsc` (sc=shortcode) can be done repeatedly all the time.
 
-Only do `mkightml` when need to refresh html statistics table.
-
 5GL/PHP is the way to make PHP functions available at command line and HHTP/POST/GET!!
 
+In the following example, `ig_1` downloads the page for a given Instagram hashtag and the photos and "edge" (graph) information (e.g. like counts), with 5GL/PHP commands `dltag` and `dlsc`.
+
+`ig_2` sorts the photos by like count and display it in Linux terminal or a web page, as shown in figure below.
+
 ```
-ig:
+ig_1:
 p:: /home/hongwu/devel/5gl/igdl_2019/
 t:: Title: Instagram download hashtag and download photo by shortcode
 Command:: php smgdb.php <Instagram_hashtag> dltag dlsc
 Environment:: Linux command line
 ::
 
-ig:
+ig_2:
 p:: /home/hongwu/devel/5gl/igdl_2019/
 t:: Title: Instagram Photo Ranking
 Command:: php smgdb.php igstats
