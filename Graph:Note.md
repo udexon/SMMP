@@ -27,7 +27,10 @@ So I may write:
 
 ```
 LiteratureReview::
-How relate to relate Graph:Note to Xanadu, TeX and other hypertext processing systems attempted. Where should I place them in the article to make the point more effective?
+How relate to relate Graph:Note to Xanadu, TeX and other hypertext processing systems attempted. 
+Where should I place them in the article to make the point more effective?
 ```
 
 Together with Markdown, the Graph:Note `LiteratureReview::` tag makes the note readable to collaborators and readers, and it can be extracted using SMGDB code for further processing, e.g. to produce a complete "ToDo" list.
+
+Since Graph:Note text can be processed by SMGDB, it can be shared hundreds (scaleable) collaborators globally, achieving the goals set out by hypertext system designers decades ago.
