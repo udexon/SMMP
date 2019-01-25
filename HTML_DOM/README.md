@@ -28,6 +28,9 @@ dap: 6 i:
 stv: esp:
 ```
 
+The immediate benefit of 5GL/PHP is to turn PHP into a shell programming language.
+
+We will break down the 5GL/PHP code, shown with line numbers in the image below:
 
 <img src="https://github.com/udexon/SMMP/blob/master/HTML_DOM/dom_reddit.png" width="520">
                                                                                           
