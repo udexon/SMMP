@@ -7,7 +7,9 @@ $ php dom_reddit.php
 ```
 
 
-2. 5GL/PHP is a stack machine programming language similar to Forth. The core stack machine is implemented in less than 50 lines of PHP code. (See [5GL core in JavaScript](http://5gl.epizy.com/nsm/fgl.html) and [Multitiered Stack Machine](https://github.com/udexon/SMMP/blob/master/MultitieredStackMachine.md).) 
+2. 5GL (Fifth Generation Graph Language) is a stack machine programming language similar to Forth. The core stack machine is implemented in less than 50 lines of PHP and JavaScript code, and demonstrates the Inverse Shunting Yard Algorithm (ISYA), the inverse of Dijkstra's legendary Shunting Yard Algorithm (DSYA).
+
+(See [5GL core in JavaScript](http://5gl.epizy.com/nsm/fgl.html) and [Multitiered Stack Machine](https://github.com/udexon/SMMP/blob/master/MultitieredStackMachine.md).) 
 
 We have decided not to open source it pending negotiations with investors, but you are welcome to contact the author for collaboration, which will allow you access to the source code.
 
