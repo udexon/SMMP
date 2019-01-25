@@ -49,7 +49,10 @@ Line 2: `div[class=scrollerItem] find:` maps to `$A=$html->find("div[class=scrol
 
 `ON ECHO bv:` switches `ON` the `ECHO` variable, for debugging purposes.
 
-`stv:` prints the type of elements of the stack. This is used for PHP objects with recursive properties, where `var_export()` breaks down. 
+`stv:` prints the type of elements of the stack. This is used for PHP objects with recursive properties, where `var_export()` breaks down, e.g.
+```
+< 5 >  array,  string "smgdb.php",  array,  integer 0,  object, 
+```
 
 
 Line 3: `A l:` set label `A` as start of loop.
@@ -93,5 +96,9 @@ Line 10: `dap:` loads `$DA` on to stack.
 
 `6 i:` extracs element with index 6; `esp:` prints it.
 
-
+Example output:
+```
+<h2 class="imors3-0 iuScIP">Yarn's Future - v2 and beyond (Yarn will be rewritten in 
+TypeScript from Flow)</h2>
+```
 
