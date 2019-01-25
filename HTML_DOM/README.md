@@ -20,6 +20,6 @@ stv: esp:
 ```
 
 
-<img src="https://github.com/udexon/SMMP/blob/master/HTML_DOM/dom_reddit.png" width="480">
+<img src="https://github.com/udexon/SMMP/blob/master/HTML_DOM/dom_reddit.png" width="520">
                                                                                           
                                                                                           
