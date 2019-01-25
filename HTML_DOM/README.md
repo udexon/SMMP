@@ -42,3 +42,27 @@ Line 1: In the diagram above, line 1 `php smgdb.php` starts the php script `smgd
 
 This is the saved Reddit web page.
                                                                                           
+
+Line 2: `div[class=scrollerItem] find:` maps to `$A=$html->find("div[class=scrollerItem]")` in `dom_reddit.php`.
+
+`cx:` counts the number of elements in the search results of `find()` above, and this is used as the loop counter.
+
+`ON ECHO bv:` switches `ON` the `ECHO` variable, for debugging purposes.
+
+`stv:` prints the type of elements of the stack. This is used for PHP objects with recursive properties, where `var_export()` breaks down. 
+
+
+Line 3: `A l:` set label `A` as start of loop.
+
+`1 -` substracts 1 from counter.
+
+`nl:` prints a newline.
+
+`over:` equivalent to Forth `over`: duplicate the element below the top of stack, i.e. the array of search results. This is standard technique to manipulate the stack in a loop.
+
+`IS_array .` is just a remark, which gets "popped" immediately by `.` -- i.e. do not execute it.
+
+`over:` duplicates the counter 
+
+`IS_counter .` is another remark.
+
