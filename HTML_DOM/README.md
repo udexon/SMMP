@@ -80,3 +80,18 @@ Line 5: `dup:` duplicate the top of stack (TOS) so that the original is availabl
 
 `pda:` pushes result to variable `$DA` (data array), so that we can use it at the end of the loop.
 
+
+Line 6: `dup: div[class=_1rZYMD_4xY3gRcSS3p8ODO] find: 0 i: pda:` extracts vote count.
+
+Line 7: `span[class=FHCV02u6Cp2zYL0fhQPsO]  find: 0 i: pda:` extracts comment count.
+
+Line 8: `xxx esp:` prints `xxx`. 
+
+Line 9: `A bnz:` "branch if not zero" back to lable `A`.
+
+Line 10: `dap:` loads `$DA` on to stack.
+
+`6 i:` extracs element with index 6; `esp:` prints it.
+
+
+
