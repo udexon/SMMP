@@ -66,3 +66,17 @@ Line 3: `A l:` set label `A` as start of loop.
 
 `IS_counter .` is another remark.
 
+
+Line 4: `49 swap: -` subtract 49 from `counter - 1`, to get the index of the element in array, i.e. 0 to 49.
+
+`i:` extracts the `i`-th element from the array.
+
+
+Line 5: `dup:` duplicate the top of stack (TOS) so that the original is available for subsequent operations.
+
+`h2[class=imors3-0] find:` finds the subject line of each Reddit post.
+
+`0 i:` extracts the first element from results (array)
+
+`pda:` pushes result to variable `$DA` (data array), so that we can use it at the end of the loop.
+
