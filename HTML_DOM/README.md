@@ -33,5 +33,12 @@ The immediate benefit of 5GL/PHP is to turn PHP into a shell programming languag
 We will break down the 5GL/PHP code, shown with line numbers in the image below:
 
 <img src="https://github.com/udexon/SMMP/blob/master/HTML_DOM/dom_reddit.png" width="520">
-                                                                                          
+              
+Line 1: In the diagram above, line 1 `php smgdb.php` starts the php script `smgdb.php`.
+
+`R/programming.html`, a filename, is pushed onto the stack.
+
+`fgh:` maps to `file_get_html()` in `simple_html_dom.php`, loads and parse the HTML file.
+
+This is the saved Reddit web page.
                                                                                           
