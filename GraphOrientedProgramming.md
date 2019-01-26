@@ -8,23 +8,6 @@ GOP has been narrowly defined as "workflow programming". We would like to expand
 
 MVC frameworks can be considered as a type of GOP, but perhaps not conceived by their inventors with data or graph as the prime motivation. 
 
- creates the system to do graph oriented programming, but too complicated, cannot be expressed in one line.
-
-
-
-
-
-Graph = data and code = homoiconic = unexplored
-
-I write one line of text at command line. Saved as a file. File name is one word. It is not a graph. Graph needs at least two keys, vertex name and edge name, no, node and subnode names, edge is unnamed. So filename is incomplete as graph unless marked by graph node json  gnjson gson 
-
-node_X:
-subnode_Y: filename
-
-node_X can then be referred to by other nodes or programs.
-
-Graph code i.e. 5GL RPN is homoiconic. Without graph:code gcode and gson, cannot do graph oriented programming.
-
 Let us illustrate the complexity of GOP with a trivial example -- lodging a complaint.
 
 MVC programmers would set out to design a multi gigabytes MVC system together with state of the art SQL hardware to win the hearts of the customers.
@@ -33,6 +16,7 @@ We prefer to break down the porblem to its bare primitives to illustrate the und
 
 First, we propose a readable JSON format, similar to YAML, with some slight changes:
 
+```
 complaint:
 content: ::
 date: ::
@@ -40,6 +24,7 @@ time: ::
 by: ::
 admin: ::
 ::
+```
 
 In our notation, called Graph:Node, a key is suffixed by a colon ':' and the end of key is marked by a double colon '::'. So the example above illustrates a nested JSON structure, which is more convenient compared to YAML.
 
@@ -53,15 +38,18 @@ Enter Graph:Code. We adopt the convention of naming our work using the same conv
 
 Previously known as 5GL as a pun for its source of inspiration the Forth programming language, the alias Graph:Code conveys the GOP aspects of 5GL.
 
-Graph = data and code = homoiconic = unexplored
+For example,
+
+```
+Node_X read send_to_web
+```
+
+
 
 We wish highlight the homoiconic properties of Graph:Code which is largely unexplored as previous works focused on the syntactic aspects of such programming languages. 
 
-The keys in Graph:Node can be referred in Graph:Code expression. Graph:Code statements can be included as an object in Graph:Node making it "self evaluation".
+The keys in Graph:Node can be referred in Graph:Code expression. Graph:Code statements can be included as an object in Graph:Node making it "self evaluating".
 
-For example,
-
-Node_X read send_to_web
 
 The underlying MVC frameworks can still be used. But now we have one unified programming language that can be interfaced to SQL, PHP, JavaScript, HTML etc.
 
@@ -91,4 +79,25 @@ In fact, human daily interactions are data oriented, starting with describing a 
 
 Using G:SM model, we see that conventional MVC has only done a small part equivalent to human interactions, ie. delivering the message. How to process the message is largely not done, as it requires a simplified engine and programming language to develop further, as in G:SM. 
 
+I write one line of text at command line. Saved as a file. File name is one word. It is not a graph. Graph needs at least two keys, vertex name and edge name, no, node and subnode names, edge is unnamed. So filename is incomplete as graph unless marked by graph node json  gnjson gson 
+
+```
+node_X:
+subnode_Y: filename
+```
+
+node_X can then be referred to by other nodes or programs.
+
+Graph code i.e. 5GL RPN is homoiconic. Without graph:code gcode and gson, cannot do graph oriented programming.
+
+
  
+creates the system to do graph oriented programming, but too complicated, cannot be expressed in one line.
+
+
+
+
+
+Graph = data and code = homoiconic = unexplored
+
+Graph = data and code = homoiconic = unexplored
