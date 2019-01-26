@@ -1,6 +1,6 @@
 ## Graph Oriented Programming
 
-From Chomsky to SQL: Graph Oriented Programming
+### From Chomsky to SQL: Graph Oriented Programming
 
 Of all domains of programming, SQL programmers are perhaps the least glamorous and yet most highly paid, for reasons that outsiders seldom take notice. We begin our discussion with this issue, in order to highlight the practical difficulties faced by what we would consider as "graph oriented programming".
 
