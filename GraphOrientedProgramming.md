@@ -17,7 +17,7 @@ We prefer to break down the porblem to its bare primitives to illustrate the und
 First, we propose a readable JSON format, similar to YAML, with some slight changes:
 
 ```
-complaint:
+complaint_X:
 content: ::
 date: ::
 time: ::
@@ -41,8 +41,17 @@ Previously known as 5GL as a pun for its source of inspiration the Forth program
 For example,
 
 ```
-Node_X read send_to_web
+complaint_X display_on_web_page
+node_X display_on_web_page
 ```
+
+In this mock up examples, `complaint_X` and `node_X` are the keys of Graph:Node, `display_on_web_page` would be a Graph:Code function that displays the Graph:Node on a web page. Details have been omitted for illustration purposes.
+
+Where are these Graph:Code commands saved, sent and executed?
+
+node_X can then be referred to by other nodes or programs.
+
+Graph code i.e. 5GL RPN is homoiconic. Without graph:code gcode and gson, cannot do graph oriented programming.
 
 
 
