@@ -36,7 +36,7 @@ Unless someone can create a programming language that can express an MVC task in
 
 Enter Graph:Code. We adopt the convention of naming our work using the same convention as the Graph:Node format, as it is unique and fits nicely in human readable documents and speeches.
 
-Previously known as 5GL as a pun for its source of inspiration the Forth programming language, the alias Graph:Code conveys the GOP aspects of 5GL.
+Previously known as 5GL (Fifth Generation Graph Language) as a pun for its source of inspiration, the Forth programming language, the alias Graph:Code conveys the GOP aspects of 5GL.
 
 For example,
 
@@ -46,6 +46,8 @@ node_X display_on_web_page
 ```
 
 In this mock up examples, `complaint_X` and `node_X` are the keys of Graph:Node, `display_on_web_page` would be a Graph:Code function that displays the Graph:Node on a web page. Details have been omitted for illustration purposes.
+
+The overall system to process Graph:Node and Graph:Code is call Graph:StackMachine (G:SM), based on its stack machine architecture, which provides an important property called homoiconicity, which we shall explain later.
 
 Where are these Graph:Code commands saved, sent and executed?
 
