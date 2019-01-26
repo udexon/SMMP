@@ -47,7 +47,7 @@ node_X display_on_web_page
 
 In this mock up examples, `complaint_X` and `node_X` are the keys of Graph:Node, `display_on_web_page` would be a Graph:Code function that displays the Graph:Node on a web page. Details have been omitted for illustration purposes.
 
-The overall system to process Graph:Node and Graph:Code is call Graph:StackMachine (G:SM), based on its stack machine architecture, which provides an important property called homoiconicity, which we shall explain later.
+The overall system that processes Graph:Node and Graph:Code is called Graph:StackMachine (G:SM), based on its stack machine architecture, which provides an important property called homoiconicity, which we shall explain later.
 
 Where are these Graph:Code commands saved, sent and executed?
 
