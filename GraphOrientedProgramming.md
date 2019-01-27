@@ -50,6 +50,16 @@ In this mock up examples, `complaint_X` and `node_X` are the keys of Graph:Node,
 
 The overall system that processes Graph:Node and Graph:Code is called Graph:StackMachine (G:SM), based on its stack machine architecture, which provides an important property called homoiconicity, which we shall explain later.
 
+Now let us look at the practical aspects of implementing the proposal above, to illustrate the complexity and complications of a seemingly trivial case.
+
+Firstly, let us save the Graph:Node record in a file called `N_complaint_X` in a subdirectory `G`, where the current directory stores `smgdb.php`, an example of Graph:StackMachine web server. `smgdb.php` is accessed with the following URL:
+
+`http://localhost/devel/5gl/igdl_2019/smgdb.php?S=G%2FN_complaint_X+ll%3A`
+
+The urlencoded string (produced by PHP urlencode()) `G%2FN_complaint_X+ll%3A` is originally `G/N_complaint_X ll:` -- this is a Graph:Code command written in the reverse Polish notation, to execute the following Unix command:
+
+`ls -l G/N_complaint_X`
+
 
 #### Draft
 
