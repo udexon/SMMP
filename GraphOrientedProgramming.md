@@ -90,6 +90,10 @@ Results shown in web page:
 
 Insert delete etc?
 
+Database, front end functions, back end functions?
+
+Single node, multinode coding?
+
 ### Graph:StackMachine vs. MVC
 
 So what are the differences between Graph:StackMachine and conventional MVC frameworks?
