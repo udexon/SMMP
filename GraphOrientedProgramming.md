@@ -50,31 +50,30 @@ In this mock up examples, `complaint_X` and `node_X` are the keys of Graph:Node,
 
 The overall system that processes Graph:Node and Graph:Code is called Graph:StackMachine (G:SM), based on its stack machine architecture, which provides an important property called homoiconicity, which we shall explain later.
 
+
+#### Draft
+
+
+`:homoiconicity`
+We wish to highlight the homoiconic properties of Graph:Code which is largely unexplored as previous works focused on the syntactic aspects of such programming languages. 
+
+The keys in Graph:Node can be referred in Graph:Code expression. Graph:Code statements can be included as an object in Graph:Node making it "self evaluating".
+
+The underlying MVC frameworks can still be used. But now we have one unified programming language that can be interfaced to SQL, PHP, JavaScript, HTML etc.
+
+Most importantly Graph:StackMachine changes how we view role specialization in an MVC team -- one programmer can perhaps handle everything from front end to back end using Graph: StackMachine (G:SM).
+
+Human natural language describe the nested JSON record above in sentences!! We process them without realizing their complexity.
+
+Current MVC creates the system to do graph oriented programming, but too complicated, cannot be expressed in one line.
+`;;`
+
 Where are these Graph:Code commands saved, sent and executed?
 
 node_X can then be referred to by other nodes or programs.
 
 Graph code i.e. 5GL RPN is homoiconic. Without graph:code gcode and gson, cannot do graph oriented programming.
 
-
-
-We wish highlight the homoiconic properties of Graph:Code which is largely unexplored as previous works focused on the syntactic aspects of such programming languages. 
-
-The keys in Graph:Node can be referred in Graph:Code expression. Graph:Code statements can be included as an object in Graph:Node making it "self evaluating".
-
-
-The underlying MVC frameworks can still be used. But now we have one unified programming language that can be interfaced to SQL, PHP, JavaScript, HTML etc.
-
-Most importantly Graph:StackMachine changes how we view role specialization in an MVC team -- one programmer can perhaps handle everything from front end to back end using Graph: StackMachine (G:SM).
-
-
-
-
-Human natural language describe the nested JSON record above in sentences!! We process them without realizing their complexity.
-
-
-
-creates the system to do graph oriented programming, but too complicated, cannot be expressed in one line.
 
 
 Each gson is non trivial. Most people don't realize this. 
@@ -105,9 +104,6 @@ Graph code i.e. 5GL RPN is homoiconic. Without graph:code gcode and gson, cannot
 
  
 creates the system to do graph oriented programming, but too complicated, cannot be expressed in one line.
-
-
-
 
 
 Graph = data and code = homoiconic = unexplored
