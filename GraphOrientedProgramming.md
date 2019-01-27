@@ -54,6 +54,8 @@ The overall system that processes Graph:Node and Graph:Code is called Graph:Stac
 
 Now let us look at the practical aspects of implementing the proposal above, to illustrate the complexity and complications of a seemingly trivial case.
 
+#### Example #1
+
 Firstly, let us save the Graph:Node record in a file called `N_complaint_X` in a subdirectory `G`, where the current directory stores `smgdb.php`, an example of Graph:StackMachine web server. `smgdb.php` is accessed with the following URL:
 
 `http://localhost/devel/5gl/igdl_2019/smgdb.php?S=G%2FN_complaint_X+ll%3A`
@@ -68,11 +70,25 @@ The web page returns the following result, i.e. long format of `ls` with date an
 
 This simple example illustrates the various components involved in a simple MVC task. You may try implement the quivalent in any MVC framework, and observe the explosion in complexity of the code.
 
-`http://localhost/devel/5gl/igdl_2019/smgdb.php?S=G%2FN_complaint_X+fgc%3A+ec%3A`
+#### Example #2
+
+Graph:Code 5GL command to print the contents of `G/N_complaint_X`:
 
 `G/N_complaint_X fgc: ec:`
 
+`fgc:` maps to `file_get_contents()`; `ec:` maps to `echo`.
+
+URLencoded string:
+
+`http://localhost/devel/5gl/igdl_2019/smgdb.php?S=G%2FN_complaint_X+fgc%3A+ec%3A`
+
+Results shown in web page:
+
 `complaint_X: id: 00251 :: content: :: date: :: time: :: by: :: admin: :: :: `
+
+### Example #3
+
+Insert delete etc?
 
 ### Graph:StackMachine vs. MVC
 
