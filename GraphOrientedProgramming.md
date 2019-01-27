@@ -14,6 +14,8 @@ MVC programmers would set out to design a multi gigabytes MVC system together wi
 
 We prefer to break down the porblem to its bare primitives to illustrate the underlying issues.
 
+### Graph:StackMachine, Graph:Node and Graph:Code
+
 First, we propose a readable JSON format, similar to YAML, with some slight changes:
 
 ```
@@ -65,6 +67,15 @@ The web page returns the following result, i.e. long format of `ls` with date an
 `-rw-r--r-- 1 hongwu hongwu 76 Jan 27 14:39 G/N_complaint_X`
 
 This simple example illustrates the various components involved in a simple MVC task. You may try implement the quivalent in any MVC framework, and observe the explosion in complexity of the code.
+
+
+### Graph:StackMachine vs. MVC
+
+So what are the differences between Graph:StackMachine and conventional MVC frameworks?
+
+Small footprint, distributed ownership, host on mobile devices -- YOUR own graph database.
+
+Programming perspectives?
 
 #### Draft
 
