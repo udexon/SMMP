@@ -60,6 +60,11 @@ The urlencoded string (produced by PHP urlencode()) `G%2FN_complaint_X+ll%3A` is
 
 `ls -l G/N_complaint_X`
 
+The web page returns the following result, i.e. long format of `ls` with date and time of the file:
+
+`-rw-r--r-- 1 hongwu hongwu 76 Jan 27 14:39 G/N_complaint_X`
+
+This simple example illustrates the various components involved in a simple MVC task. You may try implement the quivalent in any MVC framework, and observe the explosion in complexity of the code.
 
 #### Draft
 
