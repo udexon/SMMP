@@ -77,6 +77,10 @@ Small footprint, distributed ownership, host on mobile devices -- YOUR own graph
 
 Programming perspectives?
 
+Graph:Code 5GL is the first of its kind multi-platform programming language.
+
+Example 5GL commands for next step? Convert existing MVC operations to 5GL?
+
 #### Draft
 
 
