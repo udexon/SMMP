@@ -68,6 +68,11 @@ The web page returns the following result, i.e. long format of `ls` with date an
 
 This simple example illustrates the various components involved in a simple MVC task. You may try implement the quivalent in any MVC framework, and observe the explosion in complexity of the code.
 
+`http://localhost/devel/5gl/igdl_2019/smgdb.php?S=G%2FN_complaint_X+fgc%3A+ec%3A`
+
+`G/N_complaint_X fgc: ec:`
+
+`complaint_X: id: 00251 :: content: :: date: :: time: :: by: :: admin: :: :: `
 
 ### Graph:StackMachine vs. MVC
 
